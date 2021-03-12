@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { createAppContainer } from "react-navigation";
 import { createBottomTabNavigator } from "react-navigation-tabs";
 
-import CodeScan from "./screens/ScanScreen";
+import Code from "./screens/ScanScreen";
 
 export default class App extends React.Component {
   render() {
@@ -12,7 +12,7 @@ export default class App extends React.Component {
 }
 
 const TabNavigator = createBottomTabNavigator({
-  QR: { screen: CodeScan },
+  QR: { screen: Code },
   
 });
 
