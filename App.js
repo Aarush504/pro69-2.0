@@ -7,7 +7,7 @@ import CodeScan from "./screens/ScanScreen";
 
 export default class App extends React.Component {
   render() {
-    return <AppContainer />;
+    return(<Code/>);
   }
 }
 
